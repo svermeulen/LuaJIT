@@ -1,0 +1,2 @@
+#!/bin/bash
+make CFLAGS=-fPIC CFLAGS+=-DLUA_USE_APICHECK CFLAGS+=-funwind-tables CFLAGS+=-fno-stack-check CCDEBUG+=-g Q= install "CC=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -isysroot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk" MACOSX_DEPLOYMENT_TARGET=10.15
